@@ -47,8 +47,11 @@ namespace Obfuscator
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Paste to the path NET ASSEMBLY");
+
+            var pathToFile = Console.ReadLine().Replace("\"", "");
             //ReadAssembly(PATH_TO_NET_FILE)
-            AssemblyDefinition asm = AssemblyDefinition.ReadAssembly("ObfuscatorExample.exe");
+            AssemblyDefinition asm = AssemblyDefinition.ReadAssembly(pathToFile);
 
             #region Generic Info
 
