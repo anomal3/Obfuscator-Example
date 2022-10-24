@@ -24,8 +24,10 @@ foreach (TypeDefinition t in asm.MainModule.Types)
 ```
 
 
-Результатом работы 
+Как результат работы 
 
-
+![Result!](Remaner.png "Results")
 ![Result!](Remaner2.png "Results")
 ---
+
+Исходный код программы написан на NetFramework 4.7.1 и распросроняется как есть!
